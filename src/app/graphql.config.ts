@@ -4,8 +4,7 @@ import { InMemoryCache } from '@apollo/client/core';
 import { importProvidersFrom, inject } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-const uri = 'https://krishna-comp3133-s101398578-assignment1-1.onrender.com/graphql';
-
+const uri = 'https://krishna-comp3133-s101398578-assignment1-2.onrender.com/graphql';
 
 export const provideGraphQL = () => [
   importProvidersFrom(HttpClientModule),

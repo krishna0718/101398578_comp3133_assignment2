@@ -39,7 +39,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 export function apolloClientFactory(httpLink: HttpLink) {
   return {
-    link: httpLink.create({ uri: 'http://localhost:5000/graphql' }),
+    link: httpLink.create({uri: 'https://krishna-comp3133-s101398578-assignment1-2.onrender.com/graphql' }),
     cache: new InMemoryCache(),
   };
 }
