@@ -1,27 +1,58 @@
-# Frontend
+# Employee Management System - COMP3133 Assignment 2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.15.
+A full-stack Employee Management System application built with **Angular (frontend)** and **Node.js + GraphQL (backend)** connected to a **MongoDB Atlas** cloud database.
 
-## Development server
+> 🔗 Live Demo:
+> - **Frontend**: [https://101398578-comp3133-assignment2.vercel.app/](https://101398578-comp3133-assignment2.vercel.app/)
+> - **Backend**: [https://krishna-comp3133-s101398578-assignment1-2.onrender.com/](https://krishna-comp3133-s101398578-assignment1-2.onrender.com/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Features
 
-## Build
+### ✅ Authentication
+- Signup with validation
+- Login with JWT-based session
+- Auth token stored in memory
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 👥 Employee Management (CRUD)
+- Add new employee
+- View employee details
+- Edit employee info
+- Delete employee record
 
-## Running unit tests
+### 🔍 Search and Filter
+- Filter employees by department or designation (via GraphQL)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 💅 UI/UX
+- Clean, modern, and responsive UI
+- Fully custom CSS (no Angular Material)
+- User-friendly forms and tables
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## ⚙️ Technologies Used
 
-## Further help
+### Frontend
+- Angular 17 (Standalone API)
+- Apollo Angular
+- TypeScript
+- Custom CSS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Backend
+- Node.js
+- Express.js
+- Apollo Server
+- GraphQL
+- Mongoose
+- JWT + bcryptjs
+- MongoDB Atlas
+
+### Deployment
+- **Frontend**: Vercel
+- **Backend**: Render
+- **Database**: MongoDB Atlas (Free tier)
+
+---
+
